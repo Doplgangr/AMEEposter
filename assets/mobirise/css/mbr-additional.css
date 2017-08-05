@@ -723,18 +723,23 @@ pre {
   font-style: italic;
 }
 .cid-qrqJGqdone P {
-  color: #767676;
+  color: #232323;
+  text-align: left;
 }
 .cid-qrqJGqdone SPAN {
   color: #232323;
 }
 .cid-qrqJGqdone B {
-  color: #767676;
+  color: #232323;
+}
+.cid-qrqJGqdone H3 {
+  text-align: left;
 }
 .cid-qrrboyBOQW {
   padding-top: 30px;
   padding-bottom: 30px;
   background: #ffffff;
+  background: linear-gradient(45deg, #ffffff, #ffffff);
 }
 .cid-qrrboyBOQW .image-block {
   margin: auto;
