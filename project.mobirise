@@ -3,7 +3,7 @@
     "name": "AMEE Poster",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 66,
+    "uniqCompNum": 67,
     "versionPublish": "4.0.17",
     "theme": {
       "name": "mobirise4",
@@ -272,11 +272,11 @@
           "_name": "content6",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"105\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/purposive-1.svg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Purposive sampling </b><br>An equal proportion of male and female respondents were invited across all three preclinical years. Four class representatives were included to discuss in addition about their experience. As the majority of interviewees were students admitted via JUPAS<i> (i.e. students holding local secondary school diploma)</i>, another four students admitted through non-JUPAS <i>(i.e. students with qualifications of IB, GCE, AP, and postgraduates)</i> were invited to give their views.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qrrz8ua4ej",
+          "_anchor": "content6-1p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-1p"
+          "_params": {}
         },
         {
           "_styles": {
@@ -364,13 +364,31 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    1.</b> Willingess to Participate</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\">Students were willing to participate in CTE for various reasons. Most students stated that it was important because it benefits students who will take the course in coming years. Also, evaluation was described as an official channel through which students can communicate with the faculty. Some participated in CTE for more personal reasons, for example expressing their thoughts on the curriculum for the year, or because they regarded the CTE as an opportunity to evaluate their learning.<br>\n<div>Some students held a reserved attitude to evaluations. Some were uncertain whether their input was noticed given the large amount of student feedback the faculty handles in a year. Others have found current evaluations ineffective as they perceived it unrelated to recent changes in the curriculum.\n</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    1.</b> Willingess to Participate</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\">Students were willing to participate in CTE for various reasons. Most students stated that it was important because it benefits students who will take the course in coming years. Also, evaluation was described as an official channel through which students can communicate with the faculty. Some participated in CTE for more personal reasons, for example expressing their thoughts on the curriculum for the year, or because they regarded the CTE as an opportunity to evaluate their learning.<br>\n<div>Some students held a reserved attitude to evaluations. Some were uncertain whether their input was noticed given the large amount of student feedback the faculty handles in a year. Others have found current evaluations ineffective as they perceived it unrelated to recent changes in the curriculum.\n</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qrrslND520",
+          "_anchor": "content4-1l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Students were willing to participate in CTE for various reasons. Most students stated that it was important because it benefits students who will take the course in coming years. Also, evaluation was described as an official channel through which students can communicate with the faculty. Some participated in CTE for more personal reasons, for example expressing their thoughts on the curriculum for the year, or because they regarded the CTE as an opportunity to evaluate their learning.\n<div>Some students held a reserved attitude to evaluations. Some were uncertain whether their input was noticed given the large amount of student feedback the faculty handles in a year. Others have found current evaluations ineffective as they perceived it unrelated to recent changes in the curriculum.</div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qrrMxzGKbl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content4-1l"
+          "_anchor": "content1-1u"
         },
         {
           "_styles": {
@@ -413,6 +431,9 @@
             },
             "P": {
               "color": "#232323"
+            },
+            ".card-title B": {
+              "color": "#ff5722"
             }
           },
           "_name": "features4",
@@ -455,11 +476,11 @@
           "_name": "content3",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>Students showed willingness to participate in CTE. They expressed that the time given for completing the forms was insufficient. They felt pressured by other factors, like staff members waiting by the door. Students explained that under the perception of limited time, they did not fill in the form with as much detail as they intended to.\n</div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     \n                <div><span style=\"font-size: 1.1rem;\">Students have suggested collecting feedback online, as this allows submitting feedback at their convenience, without the limitation of time. The students who were willing to give their feedback in detail suggested that this allows them to express their full opinion. Students also expressed that they found typing online evaluations easier than filling in conventional evaluation forms by hand.&nbsp;</span><br></div></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qrrK8dh1cn",
+          "_anchor": "content3-1r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content3-1r"
+          "_params": {}
         },
         {
           "_styles": {
@@ -502,6 +523,9 @@
             },
             "P": {
               "color": "#232323"
+            },
+            ".card-title B": {
+              "color": "#ff5722"
             }
           },
           "_name": "features4",
@@ -591,6 +615,9 @@
             },
             "P": {
               "color": "#232323"
+            },
+            ".card-title B": {
+              "color": "#ff5722"
             }
           },
           "_name": "features4",
@@ -680,6 +707,9 @@
             },
             "P": {
               "color": "#232323"
+            },
+            ".card-title B": {
+              "color": "#ff5722"
             }
           },
           "_name": "features4",
